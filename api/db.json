@@ -1,0 +1,67 @@
+{
+  "providers": [
+    {
+      "id": 1,
+      "name": "Azercell",
+      "categoryId": 1
+    },
+    {
+      "id": 2,
+      "name": "Bakcell",
+      "categoryId": 1
+    },
+    {
+      "id": 3,
+      "name": "Paypall",
+      "categoryId": 2
+    },
+    {
+      "id": 4,
+      "name": "E-Pul",
+      "categoryId": 3
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Test Category 1"
+    },
+    {
+      "id": 2,
+      "name": "Test Category 2"
+    },
+    {
+      "id": 3,
+      "name": "Test Category 3"
+    }
+  ],
+  "payments": [
+    {
+      "id": 1,
+      "amount": 100,
+      "currency": "AZN",
+      "number": "4169733222331221",
+      "expMonth": "08",
+      "expYear": "19",
+      "cvv": "312"
+    },
+    {
+      "id": 2,
+      "amount": 120,
+      "currency": "USD",
+      "number": "4169723122132328",
+      "expMonth": "07",
+      "expYear": "15",
+      "cvv": "302"
+    },
+    {
+      "amount": "234",
+      "currency": "EURO",
+      "cardNumber": "2323232323232323",
+      "expireMonth": "23",
+      "expireYear": "23",
+      "cvv": "232",
+      "id": 3
+    }
+  ]
+}
