@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Category from './componenets/Category';
 import Provider from './componenets/Provider';
 import axios from 'axios';
+import swal from 'sweetalert';
 import Payment from './componenets/Payment';
 
 class App extends Component {
@@ -34,6 +35,12 @@ class App extends Component {
     })
     .catch(error=>{
       console.log(error);
+      swal({
+        title: error.message,
+        text: "Error Proccess",
+        icon: "error",
+        button: "Close!",
+      });
     });
   }
 

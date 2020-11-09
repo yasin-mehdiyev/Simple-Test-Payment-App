@@ -51,6 +51,12 @@ export default class Payment extends Component {
         })
         .catch(error=>{
             console.log(error);
+            swal({
+                title: error.message,
+                text: "Error Payment Proccess",
+                icon: "error",
+                button: "Close!",
+              });
         })
 
         this.emptyFields();

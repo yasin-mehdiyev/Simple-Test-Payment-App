@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import axios from 'axios';
+import swal from 'sweetalert';
 
 class Category extends Component {
 
@@ -21,6 +22,15 @@ class Category extends Component {
             .then(response => {
                 let category = response.data;
                 this.setState({ categories: category });
+            })
+            .catch(error=>{
+                console.log(error);
+                swal({
+                    title: error.message,
+                    text: "Error Proccess",
+                    icon: "error",
+                    button: "Close!",
+                  });
             })
 
     }

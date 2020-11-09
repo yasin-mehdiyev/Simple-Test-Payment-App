@@ -62,6 +62,15 @@
       "expireYear": "23",
       "cvv": "232",
       "id": 3
+    },
+    {
+      "amount": "121212",
+      "currency": "AZN",
+      "cardNumber": "1212121212121212",
+      "expireMonth": "12",
+      "expireYear": "12",
+      "cvv": "121",
+      "id": 4
     }
   ]
 }
